@@ -5,4 +5,4 @@ docker push cgarson/multi-client
 docker push cgarson/multi-server
 docker push cgarson/multi-worker
 kubectl apply -f k8s
-kubectl set image deployments/server-deployment
+kubectl set image deployments/server-deployment server=cgarson/multi-server
