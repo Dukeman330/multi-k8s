@@ -2,7 +2,7 @@ apiVersion: cert-manager.io/v1
 
 kind: Certificate
 metadata:
-  name: k8s-garsonical-com-tls
+  name: k8s-garsonical-com
 spec:
   secretName: k8s-garsonical-com
   issuerRef:
