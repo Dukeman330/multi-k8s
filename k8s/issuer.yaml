@@ -1,4 +1,4 @@
-apiVersion: cert-manager.io/v1
+apiVersion: cert-manager.io/v1 # This is the version of cert-manager we are using
 kind: ClusterIssuer
 metadata:
   name: letsencrypt-prod

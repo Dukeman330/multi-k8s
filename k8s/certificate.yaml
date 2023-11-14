@@ -9,6 +9,6 @@ spec:
     name: letsencrypt-prod
     kind: ClusterIssuer
   commonName: garsonical.com
-  dnsNames:
+  dnsNames: # List of domains to be included in the certificate
     - garsonical.com
     - www.garsonical.com
