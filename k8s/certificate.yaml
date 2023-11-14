@@ -2,12 +2,13 @@ apiVersion: cert-manager.io/v1
 
 kind: Certificate
 metadata:
-  name: k8s-garsonical-com
+  name: garsonical-com-tls
 spec:
-  secretName: k8s-garsonical-com
+  secretName: garsonical-com
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
-  commonName: k8s.garsonical.com
+  commonName: garsonical.com
   dnsNames:
-    - k8s.garsonical.com
+    - garsonical.com
+    - www.garsonical.com
