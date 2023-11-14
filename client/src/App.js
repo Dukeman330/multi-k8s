@@ -16,7 +16,7 @@ function App() {
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer">
-            Learn React, now with KUBERNETES! And maybe HTTPS!
+            Learn React, now with KUBERNETES! And maybe HTTPS! Or maybe not!
           </a>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
